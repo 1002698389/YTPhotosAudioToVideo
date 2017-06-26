@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		194155DD1F00DC5B00C863AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 194155DC1F00DC5B00C863AA /* main.m */; };
+		194155E01F00DC5B00C863AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 194155DF1F00DC5B00C863AA /* AppDelegate.m */; };
+		194155E31F00DC5B00C863AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 194155E21F00DC5B00C863AA /* ViewController.m */; };
+		194155E61F00DC5B00C863AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194155E41F00DC5B00C863AA /* Main.storyboard */; };
+		194155E81F00DC5B00C863AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194155E71F00DC5B00C863AA /* Assets.xcassets */; };
+		194155EB1F00DC5B00C863AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194155E91F00DC5B00C863AA /* LaunchScreen.storyboard */; };
+		194155F61F00DC5B00C863AA /* YTPhotosAudioToVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 194155F51F00DC5B00C863AA /* YTPhotosAudioToVideoTests.m */; };
+		194156011F00DC5B00C863AA /* YTPhotosAudioToVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 194156001F00DC5B00C863AA /* YTPhotosAudioToVideoUITests.m */; };
+		194156101F00DC7D00C863AA /* YIVideoGenerateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1941560F1F00DC7D00C863AA /* YIVideoGenerateTool.m */; };
+		194156151F00DCC500C863AA /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 194156121F00DCC500C863AA /* MBProgressHUD.bundle */; };
+		194156161F00DCC500C863AA /* XCHudHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 194156141F00DCC500C863AA /* XCHudHelper.m */; };
+		194156191F00DD6E00C863AA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 194156181F00DD6E00C863AA /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		194155F21F00DC5B00C863AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 194155D01F00DC5B00C863AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194155D71F00DC5B00C863AA;
+			remoteInfo = YTPhotosAudioToVideo;
+		};
+		194155FD1F00DC5B00C863AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 194155D01F00DC5B00C863AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194155D71F00DC5B00C863AA;
+			remoteInfo = YTPhotosAudioToVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		194155D81F00DC5B00C863AA /* YTPhotosAudioToVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTPhotosAudioToVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		194155DC1F00DC5B00C863AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		194155DE1F00DC5B00C863AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		194155DF1F00DC5B00C863AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		194155E11F00DC5B00C863AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		194155E21F00DC5B00C863AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		194155E51F00DC5B00C863AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		194155E71F00DC5B00C863AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		194155EA1F00DC5B00C863AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		194155EC1F00DC5B00C863AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		194155F11F00DC5B00C863AA /* YTPhotosAudioToVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTPhotosAudioToVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		194155F51F00DC5B00C863AA /* YTPhotosAudioToVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPhotosAudioToVideoTests.m; sourceTree = "<group>"; };
+		194155F71F00DC5B00C863AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		194155FC1F00DC5B00C863AA /* YTPhotosAudioToVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTPhotosAudioToVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		194156001F00DC5B00C863AA /* YTPhotosAudioToVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPhotosAudioToVideoUITests.m; sourceTree = "<group>"; };
+		194156021F00DC5B00C863AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1941560E1F00DC7D00C863AA /* YIVideoGenerateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIVideoGenerateTool.h; sourceTree = "<group>"; };
+		1941560F1F00DC7D00C863AA /* YIVideoGenerateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YIVideoGenerateTool.m; sourceTree = "<group>"; };
+		194156121F00DCC500C863AA /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		194156131F00DCC500C863AA /* XCHudHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCHudHelper.h; sourceTree = "<group>"; };
+		194156141F00DCC500C863AA /* XCHudHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCHudHelper.m; sourceTree = "<group>"; };
+		194156171F00DD6E00C863AA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		194156181F00DD6E00C863AA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		194155D51F00DC5B00C863AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194155EE1F00DC5B00C863AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194155F91F00DC5B00C863AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194155CF1F00DC5B00C863AA = {
+			isa = PBXGroup;
+			children = (
+				194155DA1F00DC5B00C863AA /* YTPhotosAudioToVideo */,
+				194155F41F00DC5B00C863AA /* YTPhotosAudioToVideoTests */,
+				194155FF1F00DC5B00C863AA /* YTPhotosAudioToVideoUITests */,
+				194155D91F00DC5B00C863AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		194155D91F00DC5B00C863AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				194155D81F00DC5B00C863AA /* YTPhotosAudioToVideo.app */,
+				194155F11F00DC5B00C863AA /* YTPhotosAudioToVideoTests.xctest */,
+				194155FC1F00DC5B00C863AA /* YTPhotosAudioToVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		194155DA1F00DC5B00C863AA /* YTPhotosAudioToVideo */ = {
+			isa = PBXGroup;
+			children = (
+				194156111F00DCC500C863AA /* MBProgressHUD */,
+				194155DE1F00DC5B00C863AA /* AppDelegate.h */,
+				194155DF1F00DC5B00C863AA /* AppDelegate.m */,
+				194155E11F00DC5B00C863AA /* ViewController.h */,
+				194155E21F00DC5B00C863AA /* ViewController.m */,
+				1941560E1F00DC7D00C863AA /* YIVideoGenerateTool.h */,
+				1941560F1F00DC7D00C863AA /* YIVideoGenerateTool.m */,
+				194155E41F00DC5B00C863AA /* Main.storyboard */,
+				194155E71F00DC5B00C863AA /* Assets.xcassets */,
+				194155E91F00DC5B00C863AA /* LaunchScreen.storyboard */,
+				194155EC1F00DC5B00C863AA /* Info.plist */,
+				194155DB1F00DC5B00C863AA /* Supporting Files */,
+			);
+			path = YTPhotosAudioToVideo;
+			sourceTree = "<group>";
+		};
+		194155DB1F00DC5B00C863AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				194155DC1F00DC5B00C863AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		194155F41F00DC5B00C863AA /* YTPhotosAudioToVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				194155F51F00DC5B00C863AA /* YTPhotosAudioToVideoTests.m */,
+				194155F71F00DC5B00C863AA /* Info.plist */,
+			);
+			path = YTPhotosAudioToVideoTests;
+			sourceTree = "<group>";
+		};
+		194155FF1F00DC5B00C863AA /* YTPhotosAudioToVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				194156001F00DC5B00C863AA /* YTPhotosAudioToVideoUITests.m */,
+				194156021F00DC5B00C863AA /* Info.plist */,
+			);
+			path = YTPhotosAudioToVideoUITests;
+			sourceTree = "<group>";
+		};
+		194156111F00DCC500C863AA /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				194156171F00DD6E00C863AA /* MBProgressHUD.h */,
+				194156181F00DD6E00C863AA /* MBProgressHUD.m */,
+				194156131F00DCC500C863AA /* XCHudHelper.h */,
+				194156141F00DCC500C863AA /* XCHudHelper.m */,
+				194156121F00DCC500C863AA /* MBProgressHUD.bundle */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		194155D71F00DC5B00C863AA /* YTPhotosAudioToVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194156051F00DC5B00C863AA /* Build configuration list for PBXNativeTarget "YTPhotosAudioToVideo" */;
+			buildPhases = (
+				194155D41F00DC5B00C863AA /* Sources */,
+				194155D51F00DC5B00C863AA /* Frameworks */,
+				194155D61F00DC5B00C863AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTPhotosAudioToVideo;
+			productName = YTPhotosAudioToVideo;
+			productReference = 194155D81F00DC5B00C863AA /* YTPhotosAudioToVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		194155F01F00DC5B00C863AA /* YTPhotosAudioToVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194156081F00DC5B00C863AA /* Build configuration list for PBXNativeTarget "YTPhotosAudioToVideoTests" */;
+			buildPhases = (
+				194155ED1F00DC5B00C863AA /* Sources */,
+				194155EE1F00DC5B00C863AA /* Frameworks */,
+				194155EF1F00DC5B00C863AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				194155F31F00DC5B00C863AA /* PBXTargetDependency */,
+			);
+			name = YTPhotosAudioToVideoTests;
+			productName = YTPhotosAudioToVideoTests;
+			productReference = 194155F11F00DC5B00C863AA /* YTPhotosAudioToVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		194155FB1F00DC5B00C863AA /* YTPhotosAudioToVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1941560B1F00DC5B00C863AA /* Build configuration list for PBXNativeTarget "YTPhotosAudioToVideoUITests" */;
+			buildPhases = (
+				194155F81F00DC5B00C863AA /* Sources */,
+				194155F91F00DC5B00C863AA /* Frameworks */,
+				194155FA1F00DC5B00C863AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				194155FE1F00DC5B00C863AA /* PBXTargetDependency */,
+			);
+			name = YTPhotosAudioToVideoUITests;
+			productName = YTPhotosAudioToVideoUITests;
+			productReference = 194155FC1F00DC5B00C863AA /* YTPhotosAudioToVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		194155D01F00DC5B00C863AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yetaiwen;
+				TargetAttributes = {
+					194155D71F00DC5B00C863AA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+					194155F01F00DC5B00C863AA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3XE2P5MZFR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 194155D71F00DC5B00C863AA;
+					};
+					194155FB1F00DC5B00C863AA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3XE2P5MZFR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 194155D71F00DC5B00C863AA;
+					};
+				};
+			};
+			buildConfigurationList = 194155D31F00DC5B00C863AA /* Build configuration list for PBXProject "YTPhotosAudioToVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 194155CF1F00DC5B00C863AA;
+			productRefGroup = 194155D91F00DC5B00C863AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				194155D71F00DC5B00C863AA /* YTPhotosAudioToVideo */,
+				194155F01F00DC5B00C863AA /* YTPhotosAudioToVideoTests */,
+				194155FB1F00DC5B00C863AA /* YTPhotosAudioToVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194155D61F00DC5B00C863AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194155EB1F00DC5B00C863AA /* LaunchScreen.storyboard in Resources */,
+				194156151F00DCC500C863AA /* MBProgressHUD.bundle in Resources */,
+				194155E81F00DC5B00C863AA /* Assets.xcassets in Resources */,
+				194155E61F00DC5B00C863AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194155EF1F00DC5B00C863AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194155FA1F00DC5B00C863AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194155D41F00DC5B00C863AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194155E31F00DC5B00C863AA /* ViewController.m in Sources */,
+				194156191F00DD6E00C863AA /* MBProgressHUD.m in Sources */,
+				194155E01F00DC5B00C863AA /* AppDelegate.m in Sources */,
+				194156101F00DC7D00C863AA /* YIVideoGenerateTool.m in Sources */,
+				194156161F00DCC500C863AA /* XCHudHelper.m in Sources */,
+				194155DD1F00DC5B00C863AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194155ED1F00DC5B00C863AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194155F61F00DC5B00C863AA /* YTPhotosAudioToVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194155F81F00DC5B00C863AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194156011F00DC5B00C863AA /* YTPhotosAudioToVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		194155F31F00DC5B00C863AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 194155D71F00DC5B00C863AA /* YTPhotosAudioToVideo */;
+			targetProxy = 194155F21F00DC5B00C863AA /* PBXContainerItemProxy */;
+		};
+		194155FE1F00DC5B00C863AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 194155D71F00DC5B00C863AA /* YTPhotosAudioToVideo */;
+			targetProxy = 194155FD1F00DC5B00C863AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		194155E41F00DC5B00C863AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194155E51F00DC5B00C863AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		194155E91F00DC5B00C863AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194155EA1F00DC5B00C863AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		194156031F00DC5B00C863AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		194156041F00DC5B00C863AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		194156061F00DC5B00C863AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YTPhotosAudioToVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0101.yetaiwen.YTPhotosAudioToVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		194156071F00DC5B00C863AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YTPhotosAudioToVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0101.yetaiwen.YTPhotosAudioToVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		194156091F00DC5B00C863AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3XE2P5MZFR;
+				INFOPLIST_FILE = YTPhotosAudioToVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0101.yetaiwen.YTPhotosAudioToVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTPhotosAudioToVideo.app/YTPhotosAudioToVideo";
+			};
+			name = Debug;
+		};
+		1941560A1F00DC5B00C863AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3XE2P5MZFR;
+				INFOPLIST_FILE = YTPhotosAudioToVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0101.yetaiwen.YTPhotosAudioToVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTPhotosAudioToVideo.app/YTPhotosAudioToVideo";
+			};
+			name = Release;
+		};
+		1941560C1F00DC5B00C863AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3XE2P5MZFR;
+				INFOPLIST_FILE = YTPhotosAudioToVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0101.yetaiwen.YTPhotosAudioToVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YTPhotosAudioToVideo;
+			};
+			name = Debug;
+		};
+		1941560D1F00DC5B00C863AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3XE2P5MZFR;
+				INFOPLIST_FILE = YTPhotosAudioToVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0101.yetaiwen.YTPhotosAudioToVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YTPhotosAudioToVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		194155D31F00DC5B00C863AA /* Build configuration list for PBXProject "YTPhotosAudioToVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194156031F00DC5B00C863AA /* Debug */,
+				194156041F00DC5B00C863AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		194156051F00DC5B00C863AA /* Build configuration list for PBXNativeTarget "YTPhotosAudioToVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194156061F00DC5B00C863AA /* Debug */,
+				194156071F00DC5B00C863AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		194156081F00DC5B00C863AA /* Build configuration list for PBXNativeTarget "YTPhotosAudioToVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194156091F00DC5B00C863AA /* Debug */,
+				1941560A1F00DC5B00C863AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1941560B1F00DC5B00C863AA /* Build configuration list for PBXNativeTarget "YTPhotosAudioToVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1941560C1F00DC5B00C863AA /* Debug */,
+				1941560D1F00DC5B00C863AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 194155D01F00DC5B00C863AA /* Project object */;
+}
